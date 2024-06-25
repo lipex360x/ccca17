@@ -1,5 +1,5 @@
-import { Account } from "@/entity/Account"
-import { AccountRepository } from "../AccountRepository"
+import { Account } from "@/entity/Account";
+import { AccountRepository } from "../AccountRepository";
 
 export class AccountRepositoryDatabase implements AccountRepository{
   constructor (private readonly connection: any) {}

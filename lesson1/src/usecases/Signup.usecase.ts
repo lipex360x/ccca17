@@ -1,5 +1,5 @@
-import { Account } from "@/entity/Account";
-import { AccountRepository } from "@/repositories/AccountRepository";
+import { Account } from "@/entity/Account"
+import { AccountRepository } from "@/repositories/AccountRepository"
 
 export class SignupUseCase {
   
